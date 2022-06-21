@@ -137,12 +137,12 @@ button{
     color: rgba(247,250,252,var(--tw-text-opacity));
     border-color: rgba(100,21,255,var(--tw-text-opacity));
     font-weight: 700;
-    margin-right: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
     border-radius: 9999px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 16px 16px;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -151,4 +151,23 @@ button{
     transition-duration: 300ms;
     position: relative;
     right: 25%;
+}
+
+.design__block {
+    --tw-translate-x: -56.67%;
+    --tw-translate-y: 20%;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    pointer-events: none;
+    opacity: 0.05;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 16rem;
+    width: 16rem;
+    z-index: -10;
 }
