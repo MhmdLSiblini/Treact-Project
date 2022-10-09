@@ -11,7 +11,8 @@ html {
     scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -215,7 +216,7 @@ button {
     flex-shrink: 0;
 }
 
-.feature__figure{
+.feature__figure {
     padding-bottom: 50px;
 }
 
@@ -238,11 +239,11 @@ button {
     margin: 0 1%;
 }
 
-.feature__title{
+.feature__title {
     text-align: left;
 }
 
-.feature__text{
+.feature__text {
     padding: 15px;
     text-align: left;
     word-spacing: 0.1em;
@@ -269,12 +270,12 @@ button {
 
 /* Quality Work */
 
-#Quality_Work{
+#Quality_Work {
     padding: 80px 6% 56px 6%;
     display: flex;
 }
 
-.QW{
+.QW {
     width: 0;
     color: rgba(247, 250, 252, var(--tw-text-opacity));
     border-color: rgba(100, 21, 255, var(--tw-text-opacity));
@@ -297,27 +298,27 @@ button {
     margin-top: 28px;
 }
 
-.pic{
+.pic {
     width: 690px;
 }
 
-.pic_border{
+.pic_border {
     border: 0.2px gray solid;
 }
 
-.pic_div{
-    padding-right:20px;
+.pic_div {
+    padding-right: 20px;
 }
 
-.Points{
-    position:relative;
+.Points {
+    position: relative;
     right: -635px;
     bottom: 60px;
     z-index: -10;
     height: 5rem;
     width: 5rem;
     --tw-translate-x: 50%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     --tw-translate-y: 50%;
     fill: currentcolor;
     --tw-text-opacity: 1;
@@ -326,19 +327,19 @@ button {
 
 /* Steps */
 
-#Steps{
+#Steps {
     padding: 80px 6% 56px 6%;
     display: flex;
 }
 
-.Points2{
-    position:relative;
+.Points2 {
+    position: relative;
     right: -275px;
     bottom: 75px;
     z-index: -10;
     height: 9rem;
     --tw-translate-x: 50%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     --tw-translate-y: 50%;
     fill: currentcolor;
     --tw-text-opacity: 1;
@@ -346,31 +347,31 @@ button {
     opacity: 25%;
 }
 
-.gray_number{
+.gray_number {
     font-size: 35px;
     color: rgba(83, 83, 83, 0.264);
 }
 
-.numbers{
+.numbers {
     padding-top: 40px;
 }
 
-.number{
+.number {
     display: flex;
     padding: 15px 0;
 }
 
-.num_text{
-    padding:0 25px;
+.num_text {
+    padding: 0 25px;
 }
 
-.num_black_text{
+.num_black_text {
     font-size: 20px;
     color: rgb(0, 59, 91);
     font-weight: 600;
 }
 
-.num_gray_text{
+.num_gray_text {
     padding-top: 10px;
     font-size: 14px;
     color: rgb(122, 122, 122);
@@ -380,53 +381,53 @@ button {
 
 /* Values */
 
-#values{
+#values {
     padding: 80px 6% 56px 6%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container_values{
+.container_values {
     display: flex;
     padding: 20px;
 }
 
-.value{
+.value {
     padding: 24px;
 }
 
-.value_header{
+.value_header {
     display: flex;
     align-items: center;
 }
 
-.h3_values{
+.h3_values {
     padding-left: 15px;
 }
 
-.value__icon1{ 
+.value__icon1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#BCFCC4 ;
-    border:1px solid #BCFCC4 ;    
-    height:40px;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    width:40px;
+    background-color: #BCFCC4;
+    border: 1px solid #BCFCC4;
+    height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px;
 }
 
-.value__icon2{ 
+.value__icon2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FCBCBC ;
-    border:1px solid #FCBCBC ;    
-    height:40px;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    width:40px;
+    background-color: #FCBCBC;
+    border: 1px solid #FCBCBC;
+    height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px;
 }
