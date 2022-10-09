@@ -377,3 +377,56 @@ button {
     line-height: 30px;
     font-weight: 550;
 }
+
+/* Values */
+
+#values{
+    padding: 80px 6% 56px 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_values{
+    display: flex;
+    padding: 20px;
+}
+
+.value{
+    padding: 24px;
+}
+
+.value_header{
+    display: flex;
+    align-items: center;
+}
+
+.h3_values{
+    padding-left: 15px;
+}
+
+.value__icon1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#BCFCC4 ;
+    border:1px solid #BCFCC4 ;    
+    height:40px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:40px;
+}
+
+.value__icon2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FCBCBC ;
+    border:1px solid #FCBCBC ;    
+    height:40px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:40px;
+}
